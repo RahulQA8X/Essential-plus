@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <decryptionCertificate>0P15g00000Kt4hE</decryptionCertificate>
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>https://google351-dev-ed.my.salesforce.com</issuer>
+    <loginUrl>https://connectoffice123-developer-edition.ap24.force.com/schoolcommunity/idp/endpoint/HttpRedirect</loginUrl>
+    <name>google351-dev-ed</name>
+    <oauthTokenEndpoint>https://google351-dev-ed.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P15g00000Kt4hE</requestSigningCertId>
+    <salesforceLoginUrl>https://google351-dev-ed.my.salesforce.com?sc=0LE5g000007szoF</salesforceLoginUrl>
+    <samlEntityId>https://google351-dev-ed.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <singleLogoutBinding>PostBinding</singleLogoutBinding>
+    <singleLogoutUrl>https://connectoffice123-developer-edition.ap24.force.com/schoolcommunity/services/auth/idp/saml2/logout</singleLogoutUrl>
+    <useConfigRequestMethod>false</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>false</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIEdTCCA12gAwIBAgIOAX52oh19AAAAADu4xXIwDQYJKoZIhvcNAQELBQAwfzEXMBUGA1UEAwwOUkFIVUxfSURQX0NlcnQxGDAWBgNVBAsMDzAwRDVnMDAwMDA0aVI5WDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjIwMTIwMDgzNzIyWhcNMjMwMTIwMDAwMDAwWjB/MRcwFQYDVQQDDA5SQUhVTF9JRFBfQ2VydDEYMBYGA1UECwwPMDBENWcwMDAwMDRpUjlYMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL9B2gfpzHl6NvijjZphYFB7/H8xii0P17D/ab7EaWmMAolLmy/5YW2O8HvWdwDaX0dCB5wlZEHdF/g7sarFIbIO+YO34mKEhvlWtDW6PvLVyVvicmcq6ya1tG/zNUDhE9Ept3p3PfihIAC/wSNyYif9ctu9wRk9+IZkStmrrw8KMEAYuWkzz8+LzEnydnGGQrl30fWlflIyJP0uE3Ccjq7mihv2LVpFjUXC/eK4RCEHfj6Yh/jqsJ1rat/rU2scd5GiYYbfZBuKbDwd97C4sVAGui/p3pv0ufAXepRwsm9lGG0kBwHtCyLPN9JjEJEJlFl+5KZU36LwSREmH/KKyL8CAwEAAaOB7jCB6zAdBgNVHQ4EFgQU4TjYZENBR3WXgl4j0263vnQr7DMwDwYDVR0TAQH/BAUwAwEB/zCBuAYDVR0jBIGwMIGtgBThONhkQ0FHdZeCXiPTbre+dCvsM6GBhKSBgTB/MRcwFQYDVQQDDA5SQUhVTF9JRFBfQ2VydDEYMBYGA1UECwwPMDBENWcwMDAwMDRpUjlYMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAX52oh19AAAAADu4xXIwDQYJKoZIhvcNAQELBQADggEBADeU8mdhw0pMuDVjsccL8htAO+a3W3RPPvCrGBCvWQZ4pEEYwuFQiPsme+vp9Rii326IGGhmTDmAfzARwKSKZj+pMtNedgT8PtDkqaTilc5knyzj0iGFaXD68atPwqOh7xMj/i/OSfmYhKORnWLBgxZdA/CsE/dZL5kIW4OrTMnZvc5/z/xhrFKzWsjqsfzWV2xet6wglrlUwlXQ1GqsyMir75BnPO+4QSGj54u7qt2z1EJx4jBsjcSAU4VIb5OqKbSfiWP/emYRhx/2b0FjEMSQMY6ZlDRxi7CMwua9V0Qpv0NUedapfvbNtlrPYOTOJTUfwRTRqghE0Rq4XaYbJ4g=</validationCert>
+</SamlSsoConfig>

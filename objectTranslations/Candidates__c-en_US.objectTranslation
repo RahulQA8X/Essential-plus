@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidatess</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate Name --></label>
+        <name>Candidate_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Salary --></label>
+        <name>CurrentSalary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Company --></label>
+        <name>Current_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Salary --></label>
+        <name>ExpectedSalary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Experience Level --></label>
+        <name>Experience_Level__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

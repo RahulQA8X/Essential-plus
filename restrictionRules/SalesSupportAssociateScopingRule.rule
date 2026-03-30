@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Sales support associate sees only account records of of Advisor1</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>SalesSupportAssociateScopingRule</masterLabel>
+    <recordFilter>OwnerId=$User.Id</recordFilter>
+    <targetEntity>Account__c</targetEntity>
+    <userCriteria>$User.IsActive=true</userCriteria>
+    <version>1</version>
+</RestrictionRule>

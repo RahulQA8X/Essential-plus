@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ChartConfig</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ChartConfigs</value>
+    </caseValues>
+    <fields>
+        <label><!-- DashBoardConfig --></label>
+        <name>DashBoardConfig__c</name>
+        <relationshipLabel><!-- ChartConfigs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Header --></label>
+        <name>Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShowTableOnClick --></label>
+        <name>ShowTableOnClick__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubHeader --></label>
+        <name>SubHeader__c</name>
+    </fields>
+    <fields>
+        <label><!-- TableFields --></label>
+        <name>TableFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- YAxisField --></label>
+        <name>YAxisField__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

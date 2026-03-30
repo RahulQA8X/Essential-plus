@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TagConfig</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TagConfigs</value>
+    </caseValues>
+    <fields>
+        <label><!-- SObjectConfig --></label>
+        <name>SObjectConfig__c</name>
+        <relationshipLabel><!-- TagConfigs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SortOrder --></label>
+        <name>SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TagLabel --></label>
+        <name>TagLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Patient</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patients</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address of NOK --></label>
+        <name>Address_of_NOK__c</name>
+    </fields>
+    <fields>
+        <label><!-- Addresss --></label>
+        <name>Addresss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advance Payment --></label>
+        <name>Advance_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Paid --></label>
+        <name>Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Amount --></label>
+        <name>Balance_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bills Cleared --></label>
+        <name>Bills_Cleared__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Card Payment --></label>
+        <name>Card_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition of Discharge --></label>
+        <name>Condition_of_Discharge__c</name>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improved Further O.P.</masterLabel>
+            <translation><!-- Improved Further O.P. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAMA</masterLabel>
+            <translation><!-- LAMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recovered</masterLabel>
+            <translation><!-- Recovered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment Required</masterLabel>
+            <translation><!-- Treatment Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consulting Fee --></label>
+        <name>Consulting_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Number --></label>
+        <name>Contact_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Admission --></label>
+        <name>Date_of_Admission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Discharge --></label>
+        <name>Date_of_Discharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director --></label>
+        <name>Director__c</name>
+        <relationshipLabel><!-- Patients (Director) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Doctor --></label>
+        <name>Doctor__c</name>
+        <relationshipLabel><!-- Patients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Doctor’s problem Handling --></label>
+        <name>Doctor_s_problem_Handling__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dr. Test Consultation --></label>
+        <name>Dr_Test_Consultation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drugs &amp; Consumables --></label>
+        <name>Drugs_Consumables__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending Time (OT) --></label>
+        <name>Ending_Time_OT__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender-Age --></label>
+        <name>Gender_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Indication for Admission --></label>
+        <name>Indication_for_Admission__c</name>
+        <picklistValues>
+            <masterLabel>Day Care</masterLabel>
+            <translation><!-- Day Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elective</masterLabel>
+            <translation><!-- Elective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency</masterLabel>
+            <translation><!-- Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation</masterLabel>
+            <translation><!-- Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLC</masterLabel>
+            <translation><!-- MLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Emergency</masterLabel>
+            <translation><!-- Medical Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poisoning</masterLabel>
+            <translation><!-- Poisoning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procedure</masterLabel>
+            <translation><!-- Procedure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTA / Trauma</masterLabel>
+            <translation><!-- RTA / Trauma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical</masterLabel>
+            <translation><!-- Surgical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Emergency</masterLabel>
+            <translation><!-- Surgical Emergency --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurance --></label>
+        <name>Insurance__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lab Feedback --></label>
+        <name>Lab_Feedback__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last name --></label>
+        <name>Last_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail Id --></label>
+        <name>Mail_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>Manager__c</name>
+        <relationshipLabel><!-- Patients (Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mobile No --></label>
+        <name>Mobile_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOK Mobile No --></label>
+        <name>NOK_Mobile_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nationality --></label>
+        <name>Nationality__c</name>
+        <picklistValues>
+            <masterLabel>Indian</masterLabel>
+            <translation><!-- Indian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- No of Patients --></label>
+        <name>No_of_Patients__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Rating --></label>
+        <name>Overall_Rating__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Paid Consulting Fee --></label>
+        <name>Paid_Consulting_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Complaints --></label>
+        <name>Patient_Complaints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Id --></label>
+        <name>Patient_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Name --></label>
+        <name>Patient_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Mode --></label>
+        <name>Payment_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque</masterLabel>
+            <translation><!-- Cheque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pin --></label>
+        <name>Pin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reception Behavior --></label>
+        <name>Reception_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referral Doctor --></label>
+        <name>Referral_Doctor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Date --></label>
+        <name>Registration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Fee --></label>
+        <name>Registration_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Religion --></label>
+        <name>Religion__c</name>
+        <picklistValues>
+            <masterLabel>Buddhism</masterLabel>
+            <translation><!-- Buddhism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christianity</masterLabel>
+            <translation><!-- Christianity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hinduism</masterLabel>
+            <translation><!-- Hinduism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Islam</masterLabel>
+            <translation><!-- Islam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jainism</masterLabel>
+            <translation><!-- Jainism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sikhism</masterLabel>
+            <translation><!-- Sikhism --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Room Type --></label>
+        <name>Room_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cubicles</masterLabel>
+            <translation><!-- Cubicles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluxe Room</masterLabel>
+            <translation><!-- Deluxe Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluxe Room (V Floor)</masterLabel>
+            <translation><!-- Deluxe Room (V Floor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intensive Care Unit</masterLabel>
+            <translation><!-- Intensive Care Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi Deluxe Room</masterLabel>
+            <translation><!-- Semi Deluxe Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi Deluxe Room (V Floor)</masterLabel>
+            <translation><!-- Semi Deluxe Room (V Floor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single A/C Room</masterLabel>
+            <translation><!-- Single A/C Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single A/C Room (V Floor)</masterLabel>
+            <translation><!-- Single A/C Room (V Floor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Room</masterLabel>
+            <translation><!-- Single Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Room(Small)</masterLabel>
+            <translation><!-- Single Room(Small) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>Salutation__c</name>
+        <picklistValues>
+            <masterLabel>Dr.</masterLabel>
+            <translation><!-- Dr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mr.</masterLabel>
+            <translation><!-- Mr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mrs.</masterLabel>
+            <translation><!-- Mrs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ms.</masterLabel>
+            <translation><!-- Ms. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prof</masterLabel>
+            <translation><!-- Prof --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Senior Manager --></label>
+        <name>Senior_Manager__c</name>
+        <relationshipLabel><!-- Patients (Senior Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Charges --></label>
+        <name>Service_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staff Behavior --></label>
+        <name>Staff_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Starting Time(OT) --></label>
+        <name>Starting_Time_OT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech. Test Consultation --></label>
+        <name>Tech_Test_Consultation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tel No (L.L) --></label>
+        <name>Tel_No_L_L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tests Discount --></label>
+        <name>Tests_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time in OT --></label>
+        <name>Time_in_OT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>Total_Amount__c</name>
+    </fields>
+    <layouts>
+        <layout>Patient Layout</layout>
+        <sections>
+            <label><!-- Approvers --></label>
+            <section>Approvers</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <description><!-- What is the condition of patient, feeling well  or not ? --></description>
+        <name>Ask_wellbeing_of_Patient</name>
+        <subject><!-- Ask wellbeing of Patient --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

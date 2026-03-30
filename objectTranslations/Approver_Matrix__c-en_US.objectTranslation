@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Approver Matrix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Approver Matrices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Lead Source --></label>
+        <name>Lead_Source__c</name>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation><!-- Partner Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Enquiry,</masterLabel>
+            <translation><!-- Phone Enquiry, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web,</masterLabel>
+            <translation><!-- Web, --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Approver --></label>
+        <name>Opportunity_Approver__c</name>
+        <relationshipLabel><!-- Approver Matrices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Existing Customer – Downgrade</masterLabel>
+            <translation><!-- Existing Customer – Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer – Replacement,</masterLabel>
+            <translation><!-- Existing Customer – Replacement, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer – Upgrade,</masterLabel>
+            <translation><!-- Existing Customer – Upgrade, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DashBoardConfig</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DashBoardConfigs</value>
+    </caseValues>
+    <fields>
+        <label><!-- FilterFields --></label>
+        <name>FilterFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- SObjectConfig --></label>
+        <name>SObjectConfig__c</name>
+        <relationshipLabel><!-- DashBoardConfigs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SortOrder --></label>
+        <name>SortOrder__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

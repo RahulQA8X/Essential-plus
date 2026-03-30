@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Fresher</fullName>
+        <default>false</default>
+        <label>Fresher</label>
+    </customValue>
+    <customValue>
+        <fullName>Junior</fullName>
+        <default>false</default>
+        <label>Junior</label>
+    </customValue>
+    <customValue>
+        <fullName>Senior</fullName>
+        <default>false</default>
+        <label>Senior</label>
+    </customValue>
+    <masterLabel>Experience Level</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

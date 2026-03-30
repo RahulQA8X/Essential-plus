@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trip</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trips</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Trips --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance Travelled --></label>
+        <name>Distance_Travelled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email ID --></label>
+        <name>Email_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending milage --></label>
+        <name>Ending_milage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rent --></label>
+        <name>Rent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Amount(Including Proccessing Fees) --></label>
+        <name>Trip_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip Locations --></label>
+        <name>Trip_Locations__c</name>
+        <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keral</masterLabel>
+            <translation><!-- Keral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mumbai</masterLabel>
+            <translation><!-- Mumbai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pune</masterLabel>
+            <translation><!-- Pune --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trip Ower Name --></label>
+        <name>Trip_Ower_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- starting milage --></label>
+        <name>starting_milage__c</name>
+    </fields>
+    <layouts>
+        <layout>Trip Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <description><!-- pls look into this matter --></description>
+        <name>Test_the_trip_Data</name>
+        <subject><!-- Test the trip Data --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

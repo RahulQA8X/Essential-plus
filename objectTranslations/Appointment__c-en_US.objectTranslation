@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Appointment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Appointments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appointment ID --></label>
+        <name>Appointment_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appointment Time --></label>
+        <name>Appointment_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doctor Name --></label>
+        <name>Doctor_Name__c</name>
+        <relationshipLabel><!-- Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Doctor’s problem Handling --></label>
+        <name>Doctor_s_problem_Handling__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lab Feedback --></label>
+        <name>Lab_Feedback__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Rating --></label>
+        <name>Overall_Rating__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patient Name --></label>
+        <name>Patient_Name__c</name>
+        <relationshipLabel><!-- Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient Visited? --></label>
+        <name>Patient_Visited__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose of Appointment --></label>
+        <name>Purpose_of_Appointment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reception Behavior --></label>
+        <name>Reception_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Staff Behavior --></label>
+        <name>Staff_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Poor</masterLabel>
+            <translation><!-- Very Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Will you refer this hospital to your fri --></label>
+        <name>Will_you_refer_this_hospital_to_your_fri__c</name>
+    </fields>
+    <layouts>
+        <layout>Appointment Layout</layout>
+        <sections>
+            <label><!-- Appointment Detail --></label>
+            <section>Appointment Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Feedback Details --></label>
+            <section>Feedback Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
